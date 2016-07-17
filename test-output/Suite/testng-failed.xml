@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="module1.NewTest">
+        <methods>
+          <include name="endSelenium"/>
+          <include name="initailizedSelenium"/>
+          <include name="TestSetting"/>
+          <include name="Test1"/>
+          <include name="testYoutube"/>
+        </methods>
+      </class> <!-- module1.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
